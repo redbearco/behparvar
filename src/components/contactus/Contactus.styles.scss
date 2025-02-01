@@ -1,0 +1,16 @@
+.Contactus  {
+ 
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px){ 
+    .Footer {
+        overflow-x: hidden !important;
+    }
+    .Section20 {
+        height: auto !important;
+        .h-100 {
+            height: auto !important;
+        }
+    }
+
+}
