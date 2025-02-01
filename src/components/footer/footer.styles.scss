@@ -1,0 +1,40 @@
+.Footer  {
+    .box1 {
+        height: 285px;
+        img {
+            z-index: -1;
+        }
+        .chicken1 {
+            left: 50%;
+            right: 50%;
+            top: -6%;
+        }
+        .banner {
+            height: 95px;
+        }
+    }
+    .Form {
+        button {
+            width: 180px;
+            height: 58px;
+        }
+    }
+
+    .Social {
+        .socialitem {
+            height: 58px;
+            width: 58px;
+            img {
+                max-width: 38px;
+                max-height: 38px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px){ 
+    .Footer {
+        overflow-x: hidden !important;
+    }
+
+}

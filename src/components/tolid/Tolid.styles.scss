@@ -1,0 +1,42 @@
+.Tolid  {
+    .Footer {
+        overflow-x: hidden !important;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px){ 
+    .Footer {
+        overflow-x: hidden !important;
+    }
+    .Section3 {
+        .font-size-22 {
+            font-size: 16px !important;
+        }
+        .w-50 {
+            width: 85% !important;
+        }
+        img {
+            width: auto !important;
+            height: auto !important;
+        }
+        .line-height-2 {
+            line-height: 1.8 !important;
+        }
+        .font-size-18 {
+            font-size: 14px !important;
+        }
+    }
+
+    .Section4 {
+        img {
+            display: none !important; 
+        }
+    }
+
+    .Section20 {
+        height: auto !important;
+        .h-100 {
+            height: auto !important;
+        }
+    }
+}
